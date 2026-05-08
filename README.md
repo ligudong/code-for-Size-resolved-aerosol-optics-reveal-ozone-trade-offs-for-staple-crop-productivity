@@ -1,6 +1,6 @@
-# code-for-Balancing-particulate-matter-and-ozone-control-enhances-food-security
+# code-for-Size-resolved aerosol optics reveal ozone trade-offs for staple crop productivity
 This repository contains all R scripts, data processing pipelines, and figure generation codes for the paper:
-“Balancing particulate matter and ozone control enhances food security”
+“Size-resolved aerosol optics reveal ozone trade-offs for staple crop productivity”
 The study quantifies the impacts of fine-mode aerosols (fAOD) and ozone (O₃) on crop yield and calorie supply in China, and explores air pollution control strategies that co-optimize food security outcomes.
 
 Code Structure and Naming Convention
