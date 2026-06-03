@@ -104,3 +104,13 @@ sessioninfo::session_info()
 | splines | Base | R 4.2.3 | Base R |
 | grid | Base | R 4.2.3 | Base R |
 | parallel | Base | R 4.2.3 | Base R |
+
+## Installation
+
+1. Install R (version 4.2.3 or later).
+2. Install all required R packages listed in `R_session_info.txt`.
+3. Download and extract the repository.
+4. Open the scripts in RStudio.
+5. Run the scripts sequentially according to their file names.
+
+Typical installation time on a standard desktop computer is approximately 20-30 minutes.
