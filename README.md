@@ -33,7 +33,7 @@ The file "R_session_info.txt" contains the R version, operating system informati
 To check all R package versions and the environment, run:
 sessioninfo::session_info()
 
-─ Session info ─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+─ Session info ─────
  setting  value
  version  R version 4.2.3 (2023-03-15 ucrt)
  os       Windows 10 x64 (build 26200)
@@ -47,35 +47,59 @@ sessioninfo::session_info()
  rstudio  2024.09.0+375 Cranberry Hibiscus (desktop)
  pandoc   NA
 
-─ Packages ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-## Core R Packages
+## R Package Information
 
-| Package           | Version    | Date (UTC)   | Source           |
-|------------------|-----------|-------------|-----------------|
-| magrittr          | 2.0.3     | 2022-03-30  | CRAN (R 4.2.3)  |
-| tidyverse         | 2.0.0     | 2023-02-22  | CRAN (R 4.2.3)  |
-| data.table        | 1.15.4    | 2024-03-30  | CRAN (R 4.2.3)  |
-| dtplyr            | 1.3.1     | 2023-03-22  | CRAN (R 4.2.3)  |
-| collapse          | 2.0.13    | 2024-04-13  | CRAN (R 4.2.3)  |
-| lubridate         | 1.9.3     | 2023-09-27  | CRAN (R 4.2.3)  |
-| slider            | 0.3.1     | 2024-03-11  | CRAN (R 4.2.3)  |
-| purrr             | 1.0.2     | 2023-08-10  | CRAN (R 4.2.3)  |
-| purrrgress        | 0.0.1     | 2022-09-29  | CRAN             |
-| terra             | 1.7-71    | 2024-01-31  | CRAN (R 4.2.3)  |
-| raster            | 3.6-26    | 2023-10-14  | CRAN (R 4.2.3)  |
-| sf                | 1.0-16    | 2024-03-24  | CRAN (R 4.2.3)  |
-| exactextractr     | 0.10.0    | 2023-09-20  | CRAN (R 4.2.2)  |
-| ncdf4             | 1.23      | 2024-05-13  | CRAN (R 4.2.3)  |
-| readxl            | 1.4.3     | 2023-07-06  | CRAN (R 4.2.3)  |
-| readr             | 2.1.5     | 2024-01-10  | CRAN (R 4.2.3)  |
-| writexl           | 1.5.1     | 2024-10-04  | CRAN             |
-| openxlsx          | 4.2.5.2   | 2023-02-06  | CRAN (R 4.2.3)  |
-| haven             | 2.5.4     | 2023-11-30  | CRAN (R 4.2.3)  |
-| qs                | 0.26.3    | 2024-06-17  | CRAN (R 4.2.3)  |
-| fixest            | 0.12.1    | 2024-06-13  | CRAN (R 4.2.3)  |
-| broom             | 1.0.6     | 2024-05-17  | CRAN (R 4.2.3)  |
-| tidymodels        | 1.2.0     | 2024-03-25  | CRAN (R 4.2.3)  |
-| correlation       | 0.8.5     | 2024-06-16  | CRAN (R 4.2.3)  |
-| Matrix            | 1.6-0     | 2023-07-08  | CRAN (R 4.2.3)  |
-| matrixStats       | 1.4.1     | 2024-09-08  | CRAN (R 4.2.3)  |
-| mgcv              | 1.8-42    | 2023-03-02  | CRAN (R 4.2.3)  |
+| Package | Version | Date (UTC) | Source |
+|----------|----------|------------|---------|
+| magrittr | 2.0.3 | 2022-03-30 | CRAN (R 4.2.3) |
+| tidyverse | 2.0.0 | 2023-02-22 | CRAN (R 4.2.3) |
+| data.table | 1.15.4 | 2024-03-30 | CRAN (R 4.2.3) |
+| dtplyr | 1.3.1 | 2023-03-22 | CRAN (R 4.2.3) |
+| collapse | 2.0.13 | 2024-04-13 | CRAN (R 4.2.3) |
+| lubridate | 1.9.3 | 2023-09-27 | CRAN (R 4.2.3) |
+| slider | 0.3.1 | 2024-03-11 | CRAN (R 4.2.3) |
+| purrr | 1.0.2 | 2023-08-10 | CRAN (R 4.2.3) |
+| purrrgress | 0.0.1 | 2022-09-29 | CRAN |
+| terra | 1.7-71 | 2024-01-31 | CRAN (R 4.2.3) |
+| raster | 3.6-26 | 2023-10-14 | CRAN (R 4.2.3) |
+| sf | 1.0-16 | 2024-03-24 | CRAN (R 4.2.3) |
+| exactextractr | 0.10.0 | 2023-09-20 | CRAN (R 4.2.2) |
+| ncdf4 | 1.23 | 2024-05-13 | CRAN (R 4.2.3) |
+| readxl | 1.4.3 | 2023-07-06 | CRAN (R 4.2.3) |
+| readr | 2.1.5 | 2024-01-10 | CRAN (R 4.2.3) |
+| writexl | 1.5.1 | 2024-10-04 | CRAN |
+| openxlsx | 4.2.5.2 | 2023-02-06 | CRAN (R 4.2.3) |
+| haven | 2.5.4 | 2023-11-30 | CRAN (R 4.2.3) |
+| qs | 0.26.3 | 2024-06-17 | CRAN (R 4.2.3) |
+| fixest | 0.12.1 | 2024-06-13 | CRAN (R 4.2.3) |
+| broom | 1.0.6 | 2024-05-17 | CRAN (R 4.2.3) |
+| tidymodels | 1.2.0 | 2024-03-25 | CRAN (R 4.2.3) |
+| correlation | 0.8.5 | 2024-06-16 | CRAN (R 4.2.3) |
+| Matrix | 1.6-0 | 2023-07-08 | CRAN (R 4.2.3) |
+| matrixStats | 1.4.1 | 2024-09-08 | CRAN (R 4.2.3) |
+| mgcv | 1.8-42 | 2023-03-02 | CRAN (R 4.2.3) |
+| ggplot2 | 3.5.1 | 2024-04-23 | CRAN (R 4.2.3) |
+| ggpmisc | 0.6.0 | 2024-06-28 | CRAN (R 4.2.3) |
+| hrbrthemes | 0.8.7 | 2024-03-04 | CRAN |
+| cowplot | 1.1.3 | 2024-01-22 | CRAN (R 4.2.3) |
+| ggh4x | 0.2.8 | 2024-01-23 | CRAN (R 4.2.3) |
+| scales | 1.3.0 | 2023-11-28 | CRAN (R 4.2.3) |
+| patchwork | 1.2.0 | 2024-01-08 | CRAN (R 4.2.3) |
+| ggside | 0.3.1 | 2024-03-01 | CRAN (R 4.2.3) |
+| ggdensity | 1.0.0 | 2023-02-09 | CRAN (R 4.2.3) |
+| ggupset | 0.4.0 | 2024-06-24 | CRAN (R 4.2.3) |
+| latex2exp | 0.9.6 | 2024-01-16 | CRAN (R 4.2.3) |
+| ggrepel | 0.9.6 | 2024-09-07 | CRAN (R 4.2.3) |
+| ggpointdensity | 0.1.0 | 2019-08-28 | CRAN |
+| viridis | 0.6.5 | 2024-01-29 | CRAN (R 4.2.3) |
+| gghighlight | 0.4.1 | 2023-12-16 | CRAN (R 4.2.3) |
+| biscale | 1.0.0 | 2022-05-27 | CRAN (R 4.2.3) |
+| ggdist | 3.3.2 | 2024-03-05 | CRAN (R 4.2.3) |
+| ggstar | 1.0.4 | 2022-11-08 | CRAN (R 4.2.3) |
+| openair | 2.18-2 | 2024-08-30 | CRAN (R 4.2.3) |
+| sysfonts | 0.8.9 | 2024-04-16 | CRAN (R 4.2.3) |
+| showtext | 0.9-7 | 2024-01-11 | CRAN (R 4.2.3) |
+| furrr | 0.3.1 | 2022-08-15 | CRAN (R 4.2.3) |
+| splines | Base | R 4.2.3 | Base R |
+| grid | Base | R 4.2.3 | Base R |
+| parallel | Base | R 4.2.3 | Base R |
