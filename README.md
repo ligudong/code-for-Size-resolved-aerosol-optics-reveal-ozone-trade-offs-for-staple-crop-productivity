@@ -45,9 +45,8 @@ sessioninfo::session_info()
 | Collation | Chinese (Simplified)_China.utf8 |
 | Character type | Chinese (Simplified)_China.utf8 |
 | Time zone | Asia/Taipei |
-| Session date | 2026-06-04 |
 | RStudio version | 2024.09.0+375 Cranberry Hibiscus (desktop) |
-| Pandoc | Not available |
+
 
 ## R Package Information
 
