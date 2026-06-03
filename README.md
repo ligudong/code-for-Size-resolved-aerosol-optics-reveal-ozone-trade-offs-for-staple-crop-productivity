@@ -33,7 +33,7 @@ Detailed package information is provided in R_session_info.txt.
 To check all R package versions and the environment, run:
 sessioninfo::session_info()
 
-## Session Information
+### Session Information
 
 | Item | Value |
 |--------|--------|
@@ -48,7 +48,7 @@ sessioninfo::session_info()
 | RStudio version | 2024.09.0+375 Cranberry Hibiscus (desktop) |
 
 
-## R Package Information
+### R Package Information
 
 | Package | Version | Date (UTC) | Source |
 |----------|----------|------------|---------|
