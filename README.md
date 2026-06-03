@@ -1,10 +1,10 @@
 # code-for-Size-resolved aerosol optics reveal ozone trade-offs for staple crop productivity
 
-**Project Overview**
+## **Project Overview**
 
 This project integrates size-resolved aerosol optical depth (fAOD and cAOD), high-resolution ozone (AOT40), satellite solar-induced chlorophyll fluorescence (SIF), crop phenology, yield, management, and climate data for maize, rice, and wheat in China. We build scenario simulations and spatial fixed-effect models to quantify the compound effects of aerosols and ozone on crop photosynthesis and yield. The codebase covers data processing, construction of spatial panel data, regression analysis, scenario simulations, robustness checks, and the generation and export of main and supplementary figures.
 
-**Directory Structure and File Description**
+## **Directory Structure and File Description**
 
 The project consists of four main components: R scripts, data, and output figures.
 
@@ -26,7 +26,7 @@ supplementary – supplementary figures and tables.
 All figures are provided in the paper and supplementary materials.
 
 
-**R Package Information**
+## **R Package Information**
 
 Detailed package information is provided in R_session_info.txt.
 
