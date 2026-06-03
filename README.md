@@ -48,6 +48,7 @@ sessioninfo::session_info()
  pandoc   NA
 
 ─ Packages ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+## Core R Packages
 ! package           * version    date (UTC)  source
   magrittr          * 2.0.3      2022-03-30  CRAN (R 4.2.3)
   tidyverse         * 2.0.0      2023-02-22  CRAN (R 4.2.3)
