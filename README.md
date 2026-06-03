@@ -28,24 +28,26 @@ All figures are provided in the paper and supplementary materials.
 
 R Package Information
 
-The file "R_session_info.txt" contains the R version, operating system information, and all loaded packages with their versions used for this project. It serves as a reference for reproducing the computational environment and documenting the analysis methods.
+Detailed package information is provided in R_session_info.txt.
 
 To check all R package versions and the environment, run:
 sessioninfo::session_info()
 
-─ Session info ─────
- setting  value
- version  R version 4.2.3 (2023-03-15 ucrt)
- os       Windows 10 x64 (build 26200)
- system   x86_64, mingw32
- ui       RStudio
- language (EN)
- collate  Chinese (Simplified)_China.utf8
- ctype    Chinese (Simplified)_China.utf8
- tz       Asia/Taipei
- date     2026-06-04
- rstudio  2024.09.0+375 Cranberry Hibiscus (desktop)
- pandoc   NA
+## Session Information
+
+| Item | Value |
+|--------|--------|
+| R version | R version 4.2.3 (2023-03-15 ucrt) |
+| Operating system | Windows 10 x64 (build 26200) |
+| System | x86_64, mingw32 |
+| User interface | RStudio |
+| Language | English |
+| Collation | Chinese (Simplified)_China.utf8 |
+| Character type | Chinese (Simplified)_China.utf8 |
+| Time zone | Asia/Taipei |
+| Session date | 2026-06-04 |
+| RStudio version | 2024.09.0+375 Cranberry Hibiscus (desktop) |
+| Pandoc | Not available |
 
 ## R Package Information
 
